@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { auth } from './firebase';
-import {createUserWithEmailAndPassword,signInWithEmailAndPassword} from "firebase/auth";
+import {createUserWithEmailAndPassword,signInWithEmailAndPassword,signOut} from "firebase/auth";
 import { useNavigate } from 'react-router';
 import {Auth} from 'two-step-auth'
 
@@ -57,6 +57,9 @@ export default function AuthProvider({children}) {
         
     }
 
+    function signout(){
+        signOut(auth)
+    }
 
     const value = {
         currentUser,
@@ -65,7 +68,8 @@ export default function AuthProvider({children}) {
         password,
         getemailpass,
         otp,
-        login
+        login,
+        signout
     }
 
     useEffect(() => {
