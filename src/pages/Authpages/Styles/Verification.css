@@ -1,0 +1,93 @@
+.arrow-c{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.lfts{
+    width: 80%;
+    height: 80%;
+}
+
+.formt{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.verifyem{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #444444;
+}
+
+.verifya{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+
+    /* Secondary Text */
+
+    color: rgba(76, 85, 101, 0.85);
+}
+
+.bottom
+{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Secondary Text */
+
+    color: rgba(76, 85, 101, 0.85)
+}
+
+.vf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vf input::placeholder{
+    color: rgba(128, 128, 128, 0.555);
+}
+.btnpart{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn2{
+    width: 160px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: #2B83EA;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #F0F3F4;
+}

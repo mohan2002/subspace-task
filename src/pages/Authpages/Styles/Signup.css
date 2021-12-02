@@ -1,0 +1,86 @@
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 75%;
+    
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0px;
+}
+
+.txtboxs{
+    width: 100%;
+
+    border: none;
+    border-bottom: 1px solid #8f8f8fda;
+    outline: none;
+    padding: 10px;
+}
+
+.lbls{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: -3px;
+    color: #859FC1;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+    gap: 3px;
+    margin-top: 20px;
+}
+.two p{
+    margin-top:-2px;
+}
+
+.hds{
+    margin-top: 25px;
+}
+
+.btns{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.by{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 15px;
+
+    color: #444444;
+}
+
+
+@media all and (max-width: 800px) {
+    .forms
+    {
+        width: 83%;
+    }
+   
+}
+
+
+
+@media all and (max-width: 550px) {
+    .forms{
+        width: 84%;
+    }
+}

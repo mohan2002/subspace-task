@@ -1,0 +1,314 @@
+.logo-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:#23304C;
+;
+}
+
+.logo-inner{
+    width: 78%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 219px;
+    height: 50px;
+}
+
+.logo-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.sign-btn{
+    width: 128px;
+    height: 45px;
+    background: #2B83EA;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #F0F3F4;
+    cursor: pointer;
+}
+
+.nav-right p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size:1rem;
+    color: #FFFFFF;
+}
+
+.loginbox{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.left-login{
+    width: 40%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 5px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.hd{
+    margin-top: 70px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #444444;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #444444;
+}
+
+.txtbox{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #8f8f8fda;
+    outline: none;
+    padding: 10px;
+}
+.forgot{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    color: #2B83EA;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.login-btn{
+    width: 111px;
+    height: 40px;
+    background: #2B83EA;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: #F0F3F4;
+}
+
+.right-login{
+    width: 60%;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-contents{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 84%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.why{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #444444;
+}
+.buisness{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgba(76, 85, 101, 0.85);
+    text-align: center;
+}
+.imgs{
+    width: 90%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+}
+
+.need{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(76, 85, 101, 0.85);
+
+}
+
+
+@media all and (max-width:1040px){
+    .img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media all and (max-width: 950px) {
+    .logo-inner{
+        width: 85%;
+    }
+    .buisness{
+        font-size: 15px;
+    }
+    .right-contents{
+        width:80%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .logo-inner{
+        width: 90%;
+    }
+    .left-login{
+        width: 50%;
+    }
+    .form
+    {
+        width: 80%;
+    }
+    .right-contents{
+        width:90%;
+    }
+    .img{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .why{
+        font-size: 20px;
+    }
+    .need{
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .logo-inner{
+        width: 95%;
+    }
+    .hd{
+        font-size: 1.3rem;
+    }
+    .sign-btn{
+        width: 100px;
+        height: 40px;
+    }
+    
+    .nav-right p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size:0.8rem;
+        color: #FFFFFF;
+    }
+    .right-contents{
+        width:95%;
+    }
+    .img{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+
+@media all and (max-width: 550px) {
+    .logo-inner{
+        width: 90%;
+    }
+    .left-login{
+        width: 100%;
+    }
+    .right-login{
+        display: none;
+    }
+    .nav-right{
+        gap: 4px;
+    }
+    .sign-btn{
+        width: 80px;
+        height: 35px;
+    }
+    .nav-right p{
+        text-align: center;
+    }
+}
+
